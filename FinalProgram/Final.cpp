@@ -11,7 +11,7 @@ for a difference between the counter starting at i = 1, and the database entries
 Table Of Contents
 Line 23 ... Declarations, Libraries, namespace, and function prototypes
 Line 71 ... Main
-Line 148 ... Addition functtions
+Line 148 ... Addition functions
 Line 537 ... Delete functions
 Line 707 ... Update functions
 Line 1042 ... Transaction 
@@ -24,6 +24,7 @@ Line 1472 ... Rollback function
 #include <string>
 #include <iomanip>
 #include "sqlite3.h"
+#include "menus.h"
 
 using namespace std;
 
@@ -145,6 +146,7 @@ int mainMenu()
 	} 
 	return choice;
 }
+
 //outputs menu
 void printMainMenu() 
 {
